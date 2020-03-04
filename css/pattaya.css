@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:#262626;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+
+.video-background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+}    
+
+
+        .video-background
+        {
+            width: 100%;
+            height: auto;
+        }
+
+.container{
+    margin-left: 100%;;
+    margin: auto;
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 245px;
+ }
+ 
+ .container .box{
+    border: 2px solid;
+    margin-right: 12%;
+    width: 300px;
+    height: 230px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+      
+      
+ }
+ 
+ .container .box .imgBox{
+     position: relative;
+     overflow: hidden; 
+ }
+ 
+ .container .box .imgBox img{
+     max-width: 100%;
+     transition: transform 2s;
+ }
+ 
+ .container .box:hover .imgBox img{
+     transform: scale(1.2);
+ }
+
+
+ 
+ 
+ .container .box .imgBox6{
+    position: relative;
+    overflow: hidden; 
+}
+
+.container .box .imgBox6 img{
+    max-width: 100%;
+    transition: transform 2s;
+    width: 300px;
+    height: 200px;
+}
+
+.container .box:hover .imgBox6 img{
+    transform: scale(1.2);
+}
+
+ nav{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+nav .logo{
+     padding: 22px;
+     height: 80px;
+     float: left;
+     font-size: 24px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+
+}
+
+
+
+nav ul li a.patta{
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.desc
+{
+    
+    padding: 4px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+   
+
+
+/* Video */
+
+.container1{
+    margin-left: 3%;
+    margin: auto;
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ 
+ .container1 .box{
+    
+      margin-right: 12%;
+      width: 300px;
+      height: 230px;
+      margin: 10px;
+      box-sizing: border-box;
+      display: inline-block;
+      
+      
+ }
+
+.serif
+{
+   font-size: 25px;
+   width: 100%;
+   float: left;
+   font-style: oblique;
+   font-weight: 800;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
